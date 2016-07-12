@@ -1,0 +1,14 @@
+{
+  "name": "studiohub",
+  "version": "0.0.1",
+  "description": "Studio Hub",
+  "main": "server.js",
+  "repository": "",
+  "author": "Matt Green <email@mattgreen.co.uk>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "express": "4.14.0",
+    "node-red": "0.14.3",
+    "node-red-contrib-postgres": "^0.5.1"
+  }
+}

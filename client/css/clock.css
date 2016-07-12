@@ -1,0 +1,14 @@
+body {
+    margin:0;
+    padding:0;
+    background-color:#000;
+    color:#fff;
+    text-align:center;
+    font:2em sans-serif;
+}
+#clock {
+    float:none;
+	width: 100%;
+	height: 100%;
+    position: relative;
+}
