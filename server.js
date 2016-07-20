@@ -4,6 +4,9 @@ var RED = require("node-red");
 //Setup Express 
 var app = express();
 app.use("/",express.static("client"));
+app.get('/', function(req, res) {
+  res.redirect('/api/vis/' + req.params.name);
+});
 app.get('/vis/:name', function(req, res) {
   res.redirect('/api/vis/' + req.params.name);
 });
