@@ -17,6 +17,7 @@ var settings = {
     httpAdminRoot:"/admin",
     httpNodeRoot: "/api",
     flowFile: "studiohub.json",
+    userDir: "node-red/",
     functionGlobalContext: { } // enables global context
 };
 // Initialise the runtime with a server and settings
