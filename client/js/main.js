@@ -15,7 +15,7 @@ require(['vendor/reconnectWebsocket','modules/clock', 'modules/tally', 'modules/
     var tickerModule = new tickerModule(); 
     var clock = new clockModule();
     dataModule.init('#toptext','#bottomtext'); 
-    tickerModule.init('#tickerData', 3000);
+    tickerModule.init('#tickerData', 6000);
     $(document).ready(function() {
         function startClock() { 
             var clockTimer;
